@@ -1,11 +1,14 @@
 # Flower_color_detection
 
-This repository is an implementation of some methods described in the paper "Automated color detection in orchids using color labels and deep learning" (https://doi.org/10.1371/journal.pone.0259036). The method was proposed to detect Color of Flower (CF) and Color of Labellum (CL) in Orchids flower.
+This repository is an implementation of some methods described in the paper "Automated color detection in orchids using color labels and deep learning" (https://doi.org/10.1371/journal.pone.0259036) as part of the Paper Review program organized by Zummit Africa. 
 
-1. Specifically Using Multiclass Classifier
-	-For the Primary color Scheme
+The method proposed in the paper is to detect Color of Flower (CF) and Color of Labellum (CL) in Orchids flower.
 
 The repository includes:
+
+Specifically Using Multiclass Classifier
+	-For the Primary color Scheme
+	
 - Source code for building a multiclass color classifier using Deep Learning --> in the color_det_train file
 	
 	Basically, source code for each architecture used in the paper is the same, only need to change the type of pre-trained model and use different color schemes.
