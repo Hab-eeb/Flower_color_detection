@@ -1,4 +1,4 @@
-# Flower_color_detection
+# Flower Color Detection with a Fast Api Implementation
 
 This repo is an implementation of some methods described in the paper "Automated color detection in orchids using color labels and deep learning". The method was proposed to detect Color of Flower (CF) and Color of Labellum (CL) in Orchids flower.
 
@@ -8,7 +8,14 @@ To use our code (redo our experiments):
 3. The dataset (all of the images and the labels for training, validation and testing) can be downloaded from https://doi.org/10.7910/DVN/0HNECY. 
 4. For using the images used in the method, please find the folder Color_Classifier. There are 2 folders: Multiple_Color and Primary_Color. Please use CF1, CF2, CL1 and CL2 folders for conducting experiments using various color schemes.
 	
-For Color of Flower (CF) in Primary Secondary Color using Color Scheme 2 and Color of Labellum (CL) in all scenarios, basically the codes are the same, only need to change the dataset for those scenarios.
+For Color of Flower (CF) in Primary Secondary Color using Color Scheme 2 and Color of Labellum (CL) in all scenarios, basically the codes are the same, only need to change the dataset for those scenarios. 
+
+The Multi-Class Classifier was employed here using VGG16 with freezing only the first layer.
+
+It was then deployed with fast api to be used to infer the colors of orchid flowers not seen before.
+
+
+
 
 # Refrences
 
