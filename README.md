@@ -12,7 +12,10 @@ For Color of Flower (CF) in Primary Secondary Color using Color Scheme 2 and Col
 
 The Multi-Class Classifier was employed here using VGG16 with freezing only the first layer.
 
-It was then deployed with fast api to be used to infer the colors of orchid flowers not seen before.
+It was then deployed with fast api to be used to infer the colors of orchid flowers not seen before. 
+
+Here is the link to the medium article detailing steps and procedures employed:
+https://medium.com/@kwabenanyinaku/colour-detection-in-flowers-using-deep-learning-deployment-with-fastapi-84c28f0f84b9
 
 
 
