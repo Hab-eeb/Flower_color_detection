@@ -1,4 +1,3 @@
-# Flower_color_detection
 # Orchids-Color-Detection
 
 This repository is an implementation of some methods described in the paper "Automated color detection in orchids using color labels and deep learning" (https://doi.org/10.1371/journal.pone.0259036).
